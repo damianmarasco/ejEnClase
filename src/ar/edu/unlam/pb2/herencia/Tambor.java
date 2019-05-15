@@ -2,17 +2,17 @@ package ar.edu.unlam.pb2.herencia;
 
 public class Tambor {
 	
-	private Double valor;
+	private Integer valor;
 	
-	public Tambor (Double valor) {
+	public Tambor (Integer valor) {
 		this.valor=valor;
 	}
 
-	public Double getValor() {
+	public Integer getValor() {
 		return valor;
 	}
 
-	public void setValor(double valor) {
+	public void setValor(Integer valor) {
 		this.valor = valor;
 	}
 	

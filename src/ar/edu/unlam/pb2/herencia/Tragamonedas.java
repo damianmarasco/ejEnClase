@@ -7,13 +7,13 @@ public class Tragamonedas {
 	private Integer caras = 6;
 	
 	public Tragamonedas() {
-		this.tambor1 = new Tambor(Math.random()*this.caras);
-		this.tambor2 = new Tambor(Math.random()*this.caras);
+		this.tambor1 = new Tambor((int) Math.random()*this.caras);
+		this.tambor2 = new Tambor((int)Math.random()*this.caras);
 	}
 	
 	public void girarTambor() {
-		this.tambor1.setValor(Math.random()*this.caras);
-		this.tambor2.setValor(Math.random()*this.caras);
+		this.tambor1.setValor((int) Math.random()*this.caras);
+		this.tambor2.setValor((int) Math.random()*this.caras);
 	}
 	
 	public Boolean daPremio() {
